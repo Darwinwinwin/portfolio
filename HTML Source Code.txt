@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Profile – John Darwin E. Custodio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a>
+        </h2>
+    </header>
+
+    <section id="main-content">
+
+        <div class="left-column">
+
+            <div id="home">
+                <img src="C:\Users\CustodioJohn\Pictures\darwin.jpg" alt="Profile Image" class="profile-img">
+
+                <h2>John Darwin E. Custodio</h2>
+
+                <span class="job-title">
+                    BSIT Student, Content Creator, Esports Athlete (Former)
+                </span>
+            </div>
+
+            <hr>
+
+            <div id="contact">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:business@dazedyarou.com">business@dazedyarou.com</a></p>
+            </div>
+
+            <hr>
+
+            <div id="skills">
+                <h3>Skills</h3>
+
+                <dl>
+                    <dt>Creative Skills</dt>
+                    <dd>Video Editing</dd>
+                    <dd>Content Creation</dd>
+                    <dd>Thumbnail & Graphic Creation</dd>
+
+                    <dt>Personal Skills</dt>
+                    <dd>Time Management</dd>
+                    <dd>Public Speaking</dd>
+                    <dd>Communication Skills</dd>
+                    <dd>Goal-Driven Mindset</dd>
+                    <dd>Self-Improvement Mentality</dd>
+
+                    <dt>Competitive Skills</dt>
+                    <dd>Team Leadership</dd>
+                    <dd>Game Strategy & Analysis</dd>
+                    <dd>Communication Under Pressure</dd>
+                    <dd>Adaptability</dd>
+                </dl>
+            </div>
+
+        </div>
+
+        <div class="right-column">
+
+            <div id="about">
+                <h2>About Me</h2>
+                <p>
+                    I'm Darwin, a goal-driven person who's always working on something. Whether it's school,
+                    gaming, or creating videos. I like improving little by little and proving to myself
+                    that I can do more. I'm not perfect, but I'm consistent, and I try to show up every day
+                    with intention.
+                </p>
+
+                <h3>Experience & Achievements</h3>
+                <ul>
+                    <li>NU Fairview – Esports Player; represented the university in multiple tournaments</li>
+                    <li>Champion in multiple local esports tournaments</li>
+                    <li>Over 20,000 subscribers on YouTube</li>
+                    <li>9 years of video editing & graphic creation experience</li>
+                    <li>Balanced student, content creator, and esports athlete</li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div class="message-form">
+                <h2>Message Me</h2>
+
+                <form>
+                    <label>Name:</label><br>
+                    <input type="text" name="name"><br><br>
+
+                    <label>Email:</label><br>
+                    <input type="email" name="email"><br><br>
+
+                    <label>Message:</label><br>
+                    <textarea rows="5" placeholder="Your message here..."></textarea><br><br>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        WebProg – Web Programming 2025
+    </footer>
+
+</body>
+
+</html>
